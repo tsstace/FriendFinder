@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Find a friend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsstace/FriendFinder.git"
+  },
+  "author": "SAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsstace/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/tsstace/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7"
+  }
+}
