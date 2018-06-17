@@ -10,5 +10,5 @@ All data values for the potential matches are stored in the friends-JSON array; 
 - path
 
 # Deployment:
-- Available on git at https://github.com/tsstace/FriendFinder
+- Available on github at https://github.com/tsstace/FriendFinder
 - Deployed to Heroku as well at https://git.heroku.com/frozen-hollows-79225.git
