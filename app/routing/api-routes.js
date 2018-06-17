@@ -1,5 +1,5 @@
 //require the friends data file
-var friends = require('../data/friends-json.json');
+var friends = require('../data/friends.json');
 
 //Routes
 module.exports = function(app){
@@ -18,7 +18,7 @@ module.exports = function(app){
 		var bestMatch = {
 			name: "",
 			photo: "",
-			friendDifference: ""
+			friendDifference: 0
 		};
 
 		// Here we take the result of the user's survey POST and parse it.
